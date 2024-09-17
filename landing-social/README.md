@@ -1,5 +1,7 @@
 # README - Landing Page de las redes sociales de la carrera de Abogacía
 
+## [Visita la pagina](https://unlp-ceusta-u9-laplata-edu.github.io/abogacia-u9.home/landing-social/index.html)
+
 ## Introducción
 
 <p style="font-size: 18px;">Bienvenido al repositorio oficial de la Landing Page de las redes sociales para la <span style="font-weight: bold; font-style: italic;">Carrera de Abogacía</span> del <span style="font-size: 19px; font-weight: bold; font-style: italic;">Centro Universitario Santo Tomás de Aquino</span>. Este proyecto está diseñado para centralizar y proporcionar acceso a los medios sociales y grupos de interés relacionados con nuestra carrera. Aquí podrás encontrar enlaces para unirte a nuestros grupos de discusión, redes sociales y otras plataformas que facilitan la interacción y colaboración entre estudiantes, profesores y egresados.</p>
