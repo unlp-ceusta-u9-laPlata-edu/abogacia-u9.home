@@ -1,0 +1,110 @@
+/*
+
+                AREA DE DISEÑO RESPONSIVO Y ADAPTACION A DIFERENTES PANTALLAS
+
+*/
+                                            /* Media queries para diseño responsivo */
+@media (min-width: 450px) and (max-width: 940px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: auto; /* Ajustamos la altura del header para que no sea fija */
+        padding: 20px; /* Añadimos algo de padding para mejor espaciado */
+    }
+
+    .logo {
+        margin-right: 0;
+        margin-bottom: 20px; /* Espacio entre el logo y el video */
+    }
+
+    .one-video iframe {
+        max-width: 100%;
+    }
+
+    main {
+        margin: 0 1cm; /* Margen de 1 cm a los lados del contenido principal */
+    }
+
+    .social {
+        margin-top: 2em;
+        text-align: center;
+    }
+
+    .social h2 {
+        margin-bottom: 1em;
+        font-size: 24px; /* Aseguramos que el tamaño sea adecuado para la pantalla */
+    }
+
+    .social-container, .social-container2, .social-container3, .social-container4 {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .social-container li, .social-container2 li, .social-container3 li, .social-container4 li {
+        margin-bottom: 20px; /* Espacio entre los items */
+    }
+
+    .social-container img, .social-container2 img, .social-container3 img, .social-container4 img {
+        width: 90px; /* Ajusta estos valores para controlar el tamaño de las imagenes de las materias */
+        height: 90px;
+    }
+
+    .contac {
+        margin-left: 0px;
+    }
+
+    footer {
+        height: auto; /* Ajusta la altura según sea necesario */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    /* Aplicar estilos solo a los elementos p dentro del footer */
+    footer p {
+        font-size: 18px; /* Ajusta el tamaño del texto para el footer en pantallas pequeñas */
+        margin-bottom: 20px; /* Ajusta el margen inferior para el footer en pantallas pequeñas */
+        padding: 3px; /* Añade padding si es necesario */
+    }
+    .whasap {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .wali {
+        text-decoration: none;
+        border: none;
+    }
+
+    .developer-support {
+        margin-top: 20px;
+        position: relative;
+        left: 200px;
+        top: 5px;
+        text-decoration: none;
+        border: none;
+    }
+
+    .developer-support p {
+        font-size: 14px;
+        border: none;
+    }
+
+    .img-support img {
+        width: 50px;
+        position: absolute;
+        bottom: 20px;
+        right: 30px;
+        border: none;
+    }
+
+/* Estilos adicionales para mejorar el diseño en pantallas pequeñas */
+/* Ajustamos el tamaño de los logos sociales */
+    /* .logo-social {
+        width: 50px; 
+        height: 50px;
+    } 
+*/
+}
